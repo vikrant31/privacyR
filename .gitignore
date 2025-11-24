@@ -42,9 +42,10 @@ vignettes/*.pdf
 
 # pkgdown site (built by CI/CD, deployed to gh-pages branch)
 docs/
-pkgdown/
+pkgdown/*
 !pkgdown/extra.css
-!pkgdown/extra.css
+!pkgdown/extra-head.html
+!pkgdown/robots.txt
 
 # Build artifacts
 build/

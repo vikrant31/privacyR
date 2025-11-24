@@ -11,6 +11,9 @@ template:
   logo:
     src: man/figures/privacyR.png
     alt: privacyR logo
+  params:
+    description: "Privacy-preserving data anonymization R package for healthcare and research. Anonymize patient IDs, names, dates, locations, and ages while maintaining referential integrity. HIPAA-compliant anonymization tools."
+    keywords: ["R package", "data anonymization", "privacy", "HIPAA", "patient data", "de-identification", "healthcare data", "research data", "anonymize", "privacy-preserving"]
 
 navbar:
   structure:
