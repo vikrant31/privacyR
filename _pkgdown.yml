@@ -1,0 +1,44 @@
+url: https://vikrant31.github.io/privacyR/
+
+template:
+  bootstrap: 5
+  light-switch: true
+  bslib:
+    base_font:
+      google: "Inter"
+    code_font:
+      google: "Fira Code"
+  logo:
+    src: man/figures/privacyR.png
+    alt: privacyR logo
+
+navbar:
+  structure:
+    left: [intro, reference, articles, news]
+    right: [search]
+  bg: transparent
+  components:
+    news:
+      text: "News"
+      href: news/index.html
+
+news:
+  one_page: true
+  title: "News"
+
+reference:
+  - title: Anonymization Functions
+    desc: Core functions for anonymizing data
+    contents:
+      - anonymize_id
+      - anonymize_names
+      - anonymize_dates
+      - anonymize_locations
+      - anonymize_age
+      - anonymize_dataframe
+  - title: Utility Functions
+    desc: Helper functions for anonymization
+    contents:
+      - generate_short_uuid
+      - generate_dataset_seed
+

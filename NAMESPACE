@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+
+importFrom(lubridate,floor_date,year,month)
+importFrom(utils,head)
+
